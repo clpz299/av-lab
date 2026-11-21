@@ -1,0 +1,39 @@
+<view class="page">
+  <view class="section">
+    <view class="title">① 推流：live-pusher</view>
+    <live-pusher
+      id="pusher"
+      url="{{pushUrl}}"
+      mode="RTC"
+      autopush="{{true}}"
+      enable-camera="{{true}}"
+      enable-mic="{{true}}"
+      orientation="vertical"
+      aspect="9:16"
+      min-bitrate="200"
+      max-bitrate="1000"
+      audio-quality="high"
+      bindstatechange="onPushStateChange"
+      binderror="onPushError"
+    />
+  </view>
+
+  <view class="section">
+    <view class="title">② 播放：live-player</view>
+    <live-player
+      id="player"
+      src="{{playUrl}}"
+      mode="RTC"
+      autoplay="{{true}}"
+      object-fit="fillCrop"
+      bindstatechange="onPlayStateChange"
+      binderror="onPlayError"
+    />
+  </view>
+
+  <view class="hint">
+    <text>push = {{pushUrl}}</text>
+    <text>play = {{playUrl}}</text>
+    <text>最近事件：{{lastEvent}}</text>
+  </view>
+</view>

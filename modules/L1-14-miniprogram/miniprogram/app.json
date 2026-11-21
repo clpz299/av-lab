@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/live/live"
+  ],
+  "window": {
+    "navigationBarTitleText": "av-lab 小程序音视频初探",
+    "navigationBarBackgroundColor": "#1f2937",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0f172a"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

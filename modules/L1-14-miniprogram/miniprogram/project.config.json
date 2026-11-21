@@ -1,0 +1,14 @@
+{
+  "description": "av-lab L1-14 微信小程序音视频能力初探",
+  "projectname": "av-lab-miniprogram-live",
+  "appid": "touristappid",
+  "compileType": "miniprogram",
+  "libVersion": "3.5.0",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  }
+}

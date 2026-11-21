@@ -1,0 +1,29 @@
+.page {
+  padding: 24rpx;
+}
+
+.section {
+  margin-bottom: 28rpx;
+}
+
+.title {
+  font-size: 30rpx;
+  color: #93c5fd;
+  margin-bottom: 12rpx;
+}
+
+live-pusher,
+live-player {
+  width: 100%;
+  height: 480rpx;
+  background: #000;
+  border-radius: 12rpx;
+}
+
+.hint {
+  display: flex;
+  flex-direction: column;
+  font-size: 24rpx;
+  color: #9ca3af;
+  word-break: break-all;
+}

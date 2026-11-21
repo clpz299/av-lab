@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>av-lab · WebRTC 1v1 通话</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>WebRTC 1v1 通话 Demo</h1>
+
+<div class="bar">
+  <label>房间号 <input id="room" value="demo-room" size="12"></label>
+  <button id="join">加入房间</button>
+  <button id="leave" disabled>离开</button>
+  <span id="role" class="tag">未连接</span>
+</div>
+
+<div class="videos">
+  <figure>
+    <video id="local" autoplay muted playsinline></video>
+    <figcaption>本地（getUserMedia 采集）</figcaption>
+  </figure>
+  <figure>
+    <video id="remote" autoplay playsinline></video>
+    <figcaption>远端（ontrack 收到的媒体）</figcaption>
+  </figure>
+</div>
+
+<h2>状态</h2>
+<table id="stats">
+  <tr><th>信令</th><td id="s-signal">-</td></tr>
+  <tr><th>peerConnection</th><td id="s-pc">-</td></tr>
+  <tr><th>iceConnection</th><td id="s-ice">-</td></tr>
+  <tr><th>远端轨道</th><td id="s-remote">-</td></tr>
+  <tr><th>收到的字节</th><td id="s-bytes">-</td></tr>
+</table>
+
+<pre id="log" class="log"></pre>
+
+<script src="app.js"></script>
+</body>
+</html>
