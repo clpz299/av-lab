@@ -1,6 +1,6 @@
 # L1-06 图片与视频互转、视频转 GIF
 
-素材依据：`video/001`、`video/040`（序列帧合成 / GIF 生成），并参考 [article/026 如何生成mp4文件](file:///d:/workspace/private/audio_video_streaming-main/article/026-如何生成mp4文件.md)。
+素材依据：`video/001`、`video/040`（序列帧合成 / GIF 生成），并参考 `article/026`（如何生成 mp4 文件）。
 
 ## 目标
 

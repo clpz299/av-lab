@@ -1,8 +1,6 @@
 # L1-08 音视频核心概念实验：帧率 / 码率 / 分辨率 / GOP
 
-素材依据：
-- [article/034 音视频编解码常用知识点](file:///d:/workspace/private/audio_video_streaming-main/article/034-音视频编解码常用知识点.md)
-- [article/012 常见音视频编码格式](file:///d:/workspace/private/audio_video_streaming-main/article/012-常见音视频编码格式.md)
+素材依据：`article/034`（音视频编解码常用知识点）、`article/012`（常见音视频编码格式）。
 
 ## 目标
 

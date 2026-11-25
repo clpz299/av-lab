@@ -1,8 +1,6 @@
 # L1-07 FFmpeg 滤镜入门：水印 / 裁剪 / 画中画 / 多宫格
 
-素材依据：
-- [article/027 ffmpeg滤镜的基本使用](file:///d:/workspace/private/audio_video_streaming-main/article/027-ffmpeg滤镜的基本使用.md)
-- [article/017 基于FFmpeg的AVfilter的例子-纯净版](file:///d:/workspace/private/audio_video_streaming-main/article/017-基于FFmpeg的AVfilter的例子-纯净版.md)
+素材依据：`article/027`（ffmpeg 滤镜的基本使用）、`article/017`（基于 FFmpeg 的 AVfilter 的例子）。
 
 ## 目标
 

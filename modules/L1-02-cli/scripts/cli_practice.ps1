@@ -42,7 +42,7 @@ $r = Invoke-Cmd $AvTool.Ffprobe @(
     '-v', 'error', '-show_entries', 'stream=index,codec_type,codec_name,width,height,sample_rate,channels',
     '-of', 'csv=p=0', $src)
 if ($r.Code -ne 0) { Write-Host $r.Output; throw "ffprobe 探测失败 (exit=$($r.Code))" }
-Write-Host "  index,type,codec,width,height,sample_rate,channels"
+Write-Host "  # 字段顺序由 ffprobe 固定（index,codec_name,codec_type,...），且不适用的字段会被省略"
 ($r.Output -split "`n") | Where-Object { $_.Trim() } | ForEach-Object { Write-Host "  $_" }
 
 # 3) 分离提取：-map 选流 + -c copy 免重编码

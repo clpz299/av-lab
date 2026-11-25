@@ -1,6 +1,6 @@
 # L1-03 RGB / YUV 像素数据处理工具集
 
-素材依据：[article/020 视音频数据处理：RGB、YUV像素数据处理](file:///d:/workspace/private/audio_video_streaming-main/article/020-视音频数据处理：RGB、YUV像素数据处理.md)
+素材依据：`article/020 视音频数据处理：RGB、YUV像素数据处理`
 
 ## 目标
 

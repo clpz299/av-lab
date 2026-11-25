@@ -1,6 +1,6 @@
 # L1-04 PCM 音频采样数据处理工具集
 
-素材依据：[article/021 视音频数据处理：PCM音频采样数据处理](file:///d:/workspace/private/audio_video_streaming-main/article/021-视音频数据处理：PCM音频采样数据处理.md)
+素材依据：`article/021 视音频数据处理：PCM音频采样数据处理`
 
 ## 目标
 

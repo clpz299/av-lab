@@ -1,9 +1,6 @@
 # L1-05 视频码流分析工具入门
 
-素材依据：
-- [article/022 视音频数据处理：H.264视频码流解析](file:///d:/workspace/private/audio_video_streaming-main/article/022-视音频数据处理：H.264视频码流解析.md)
-- [article/041 视频码流分析工具](file:///d:/workspace/private/audio_video_streaming-main/article/041-视频码流分析工具.md)
-- [article/042 H.264分析器](file:///d:/workspace/private/audio_video_streaming-main/article/042-H.264分析器.md)
+素材依据：`article/022`（H.264 视频码流解析）、`article/041`（视频码流分析工具）、`article/042`（H.264 分析器）
 
 ## 目标
 
